@@ -6,9 +6,9 @@
 SHELL=/bin/bash
 PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
-email=("quintonish@gmail.com")
+email=("youremail@gmail.com")
 #adding item to email array
-#email+=("strider5465@gmail.com" "cjgenteman91@gmail.com")
+#email+=("friendsemail@gmail.com" "dogsemail@gmail.com")
 ITEM='Bike'
 CURRFILE='listing.csv'
 LASTFILE='last_listing.csv'
