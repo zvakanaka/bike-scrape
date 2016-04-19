@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'mechanize'
 require 'csv'
+# Include this next line for debugging, must also enable line at bottom
 # require 'pry-byebug'
 
 # Craigslist scraper
@@ -60,6 +61,7 @@ name_array.push(name.downcase)
   end
 end
 
+# This is the line at bottom for debugging
 # binding.pry
 
 CSV.open("listing.csv", "w+") do |csv_file|
