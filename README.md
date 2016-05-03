@@ -3,7 +3,7 @@ Scrape Craigslist for bikes, then email.
 
 ## SMTP Setup
 Must set up SMTP first. To set up for Gmail:  
-```wget -q0- https://gist.githubusercontent.com/zvakanaka/6a0a23c611be1eccc15639ac3ed441d5/raw/42a97fdb2cdee75fdf6f671d0a91d3d6bc02ee30/gmail-smtp.sh | sudo bash```
+```wget -qO- https://gist.githubusercontent.com/zvakanaka/6a0a23c611be1eccc15639ac3ed441d5/raw/42a97fdb2cdee75fdf6f671d0a91d3d6bc02ee30/gmail-smtp.sh | sudo bash```
 
 ## Crontab
 Use `crontab -e` to add the following line to check for bikes every 30 minutes:  
